@@ -5,6 +5,7 @@ public class Main {
         Diuretic coffee = new Diuretic();
         System.out.println(coffee.toString());
         coffee.functional_change = "staying awake late";
+        coffee.side_effects = "peeing more";
         System.out.println(coffee.toString());
 
     }

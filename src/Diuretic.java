@@ -14,7 +14,8 @@ public class Diuretic extends Medication {
     @Override
     public String toString() {
         return "Diuretic{" +
-                "functional_change='" + functional_change + '\'' +
+                "side_effects='" + side_effects + '\'' +
+                ", functional_change='" + functional_change + '\'' +
                 '}';
     }
 }
