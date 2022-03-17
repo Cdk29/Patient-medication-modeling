@@ -4,6 +4,9 @@ public class Main {
         System.out.println(med.toString());
         Diuretic coffee = new Diuretic();
         System.out.println(coffee.toString());
+        coffee.functional_change = "staying awake late";
+        System.out.println(coffee.toString());
+
     }
 }
 
