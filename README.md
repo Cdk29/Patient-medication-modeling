@@ -1,4 +1,8 @@
-# Encapsulation :
+# Global scope and description :
+
+### See the main informations ...
+
+### Only the nurse can gave medication...
 
 
 # Global schema of the project : 
