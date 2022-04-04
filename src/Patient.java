@@ -2,12 +2,12 @@ import java.util.*;
 
 public class Patient extends Human{
     // list of effects of med
-    public List<Medication> treatment = new ArrayList<>();
+    private List<Medication> treatment = new ArrayList<>();
 
     public List<Medication> getTreatment() {
         return treatment;
     }
-    public String seeTreatment(){
+/*    public String seeTreatment(){
         String treatment_string = "";
 
         for (int i = 0; i < treatment.size() ; i++) {
@@ -17,7 +17,8 @@ public class Patient extends Human{
         }
 
         return treatment_string;
-    }
+    }*/
+
     public void addTreatment(Medication med) {
         treatment.add(med);
     }

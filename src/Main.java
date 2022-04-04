@@ -11,30 +11,36 @@ public class Main {
         coffee.side_effects = "peeing more";
         System.out.println(coffee.toString());
 
-        Patient Primo_levi = new Patient();
-        Primo_levi.setAge(28);
-        Primo_levi.setSex("Homme"); //se questo è um uomo
-        Primo_levi.setName("Primo Levi");
-        System.out.println(Primo_levi.toString());
+        Patient Primo = new Patient();
+        Primo.setAge(26);
+        Primo.setSex("Homme"); //se questo è um uomo
+        Primo.setName("Primo Levi");
+        System.out.println(Primo.toString());
 
         //List<Medication> treatment = new ArrayList<>();
         //treatment.add(coffee);
-        //Primo_levi.treatment = treatment;
-        Primo_levi.addTreatment(coffee);
-        Primo_levi.addTreatment(coffee);
-        Primo_levi.addTreatment(coffee);
+        //Primo.treatment = treatment;
+        //Primo.addTreatment(coffee);
+        //Primo.addTreatment(coffee);
+        //Primo.addTreatment(coffee);
         //treatment.forEach(System.out::println);
-        //Primo_levi.getTreatment().forEach(System.out::println);
-        // System.out.println(Primo_levi.seeTreatment());
-        System.out.println(Primo_levi.getTreatment());
+        //Primo.getTreatment().forEach(System.out::println);
+        // System.out.println(Primo.seeTreatment());
+        //System.out.println(Primo.getTreatment());
         // for loop
-        for (int i = 0; i < Primo_levi.getTreatment().size() ; i++) {
-            System.out.println(Primo_levi.treatment.get(i).getSide_effects());
-            System.out.println(Primo_levi.treatment.get(i).getFunctional_change());
+        //for (int i = 0; i < Primo.getTreatment().size() ; i++) {
+        //    System.out.println(Primo.treatment.get(i).getSide_effects());
+        //    System.out.println(Primo.treatment.get(i).getFunctional_change());
 
-        }
+        //}
 
-        //System.out.println(Primo_levi.treatment.get(0).getSide_effects());
+        //System.out.println(Primo.treatment.get(0).getSide_effects());
+
+        Nurse Lucia = new Nurse();
+        Lucia.setName("Lucia Morpurgo");
+        Lucia.setAge(24);
+        Lucia.gavePrescription(Primo, coffee);
+        System.out.println(Primo.getTreatment());
     }
 }
 
