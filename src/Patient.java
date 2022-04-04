@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Patient extends Human{
     // list of effects of med
     private List<Medication> treatment = new ArrayList<>();
