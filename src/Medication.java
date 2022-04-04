@@ -1,6 +1,10 @@
+import Enums.Therapeutic_class;
+
 public class Medication {
     public String side_effects = "death, usually";
     public String functional_change = "death, usually";
+
+    public Therapeutic_class therapeuticClass;
 
     public String getSide_effects() {
         return side_effects;
@@ -18,11 +22,20 @@ public class Medication {
         this.functional_change = functional_change;
     }
 
+    public Therapeutic_class getTherapeuticClass() {
+        return therapeuticClass;
+    }
+
+    public void setTherapeuticClass(Therapeutic_class therapeuticClass) {
+        this.therapeuticClass = therapeuticClass;
+    }
+
     @Override
     public String toString() {
         return "Medication{" +
                 "side_effects='" + side_effects + '\'' +
                 ", functional_change='" + functional_change + '\'' +
+                ", therapeuticClass='" + therapeuticClass + '\'' +
                 '}';
     }
 
