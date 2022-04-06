@@ -12,8 +12,10 @@ Just run the script "main".
 
 # Global schema of the project : 
 
+Here a global schema of the intended project.
+
 ![schema_global](https://github.com/Cdk29/The-drug-bank-database/blob/master/Java.png)
 
-# Disclaimer
+### Disclaimer
 
 This is a free program delivered without any warranties. If your patients dies, shame is on you.
