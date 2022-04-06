@@ -14,3 +14,6 @@ Just run the script "main".
 
 ![schema_global](https://github.com/Cdk29/The-drug-bank-database/blob/master/Java.png)
 
+# Disclaimer
+
+This is a free program delivered without any warranties. If your patients dies, shame is on you.
